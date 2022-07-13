@@ -79,6 +79,7 @@ p{
     display: flex;
    justify-content: space-around;
     margin-top: 100px;
+    height: 400px;
 }
 
 .half-width{
@@ -107,3 +108,39 @@ p{
 }
 
 /* section one end */
+
+
+/* donation section start */
+
+.donation-center-info{
+    text-align: center;
+    width: 36%;
+    margin: auto;
+    
+}
+
+.donation-box{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.box{
+    background-color: #ead2d5;
+    height: 165px;
+    /* border: 1px solid; */
+    padding: 17px;
+    /* margin: -16px; */
+    margin: 0 -110px;
+}
+
+.box img{
+    float: left;
+    margin-right: 10px;
+}
+
+
+/* donation section end */
