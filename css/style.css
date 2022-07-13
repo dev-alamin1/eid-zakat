@@ -12,6 +12,15 @@
     --heading-font:inter;
 }
 
+h1,h2{
+    font-family: inter;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: poppins;
+    margin-bottom: 5px;
+}
 /* commont property end */
 
 /* ============================================ */
@@ -56,7 +65,45 @@
         color: #FEF4F5;
         font-family: poppins;
         border-radius: 5px;
+        margin-top:10px;
     }
 
 
 /* header section end */
+
+
+
+/* section one */
+
+.section{
+    display: flex;
+   justify-content: space-around;
+    margin-top: 100px;
+}
+
+.half-width{
+    width: 30%;
+}
+
+.section-img{
+    position: relative;
+}
+
+.section-img img{
+    width: 90%;
+    position: absolute;
+    z-index: -1;;
+}
+
+.play-btn img{
+    position: absolute;
+    width: 20%;
+    top: 127px;
+    left: 125px;
+}
+
+.section-info{
+    padding-top: 30px;
+}
+
+/* section one end */
