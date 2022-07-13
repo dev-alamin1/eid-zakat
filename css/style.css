@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+/* common property  */
+:root{
+    --btn-backround-color:#EF233C;
+    --dontation-box-color:#FEF4F5;
+    --zakat-text-color:#EF233C;
+    --para-font:poppins;
+    --heading-font:inter;
+}
+
+/* commont property end */
+
+/* ============================================ */
+
+/* header section start */
+    #header{
+        background-image: url("/images/Rectangle1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 560px;
+    }
+
+    .header-overlay{
+       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.597) , rgba(255, 0, 0, 0.213));
+        height: 560px;
+    }
+
+    .header-info{
+        width: 30%;
+        padding-left: 18%;
+        padding-top: 146px;
+        color: #fff;
+        
+    }
+
+   
+    .header-info h1{
+        font-family: var(--heading-font);
+        margin-bottom: 20px;
+    }
+
+    .header-info p{
+        font-family: var(--para-font);
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    button{
+        background-color: var(--btn-backround-color);
+        padding: 8px 20px;
+        border: none;
+        color: #FEF4F5;
+        font-family: poppins;
+        border-radius: 5px;
+    }
+
+
+/* header section end */
